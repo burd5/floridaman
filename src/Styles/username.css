@@ -1,0 +1,42 @@
+.username{
+    background-color: black;
+}
+
+.userForm{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.userForm label{
+    color: #fff;
+    font-family: 'Press Start 2p';
+    margin-bottom: 30px;
+}
+
+.userForm input{
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 24px;
+    color:#FF10F0;
+    font-family: 'Press Start 2p';
+    border: 5px solid #FF10F0;
+}
+
+.userForm input:focus{
+    border: 8px solid #04d9ff;
+    outline: none;
+}
+
+.userForm button{
+    width: fit-content;
+    font-size: 30px;
+    padding: 10px 40px;
+    margin: auto;
+    margin-top: 30px;
+    color: #FF10F0;
+    font-family: 'Press Start 2p';
+    border: 5px solid #04d9ff;
+    cursor: pointer;
+}

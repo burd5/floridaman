@@ -15,22 +15,26 @@
     font-size: 48px;
     color: #FF10F0;
     font-family: 'Press Start 2p';
+    text-shadow: -1px 0 #04d9ff, 0 1px #04d9ff, 1px 0 #04d9ff, 0 -1px #04d9ff;
 }
 
 .treeIcon{
     height: 70px;
     border-radius: 50%;
     border: 3px solid #04d9ff;
+    margin-right: 30px;
 }
 
-.headerIcons{
+.infoIcon{
     font-size: 48px;
     margin-right: 30px;
-    color: #04d9ff;
+    background-color: #FF10F0;
+    border-radius: 50%;
 }
 
-.landingBody{
-    background-color: black;
+.analyticsIcon{
+    font-size: 48px;
+    color: #04d9ff;
 }
 
 .modal{
@@ -57,6 +61,7 @@
 .ruleItems{
     margin-bottom: 10px;
     line-height: 30px;
+    margin-left: 10px;
 }
 
 .instructions{

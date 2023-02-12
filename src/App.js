@@ -1,12 +1,12 @@
 import './App.css';
 import Landing from './Pages/Landing'
-import Questions from './Pages/Questions'
+import Username from './Pages/Username'
 
 function App() {
   return (
     <div className="App">
       <Landing />
-      <Questions />
+      <Username />
     </div>
   );
 }
