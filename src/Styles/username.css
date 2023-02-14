@@ -5,7 +5,6 @@
 .userForm{
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
 }
 
 .userForm label{
@@ -25,7 +24,7 @@
 }
 
 .userForm input:focus{
-    border: 8px solid #04d9ff;
+    border: 6px solid #04d9ff;
     outline: none;
 }
 
@@ -37,6 +36,60 @@
     margin-top: 30px;
     color: #FF10F0;
     font-family: 'Press Start 2p';
-    border: 5px solid #04d9ff;
+    border: 6px solid #04d9ff;
     cursor: pointer;
 }
+
+
+.scroll {
+    position: relative;
+    width: 100vw;
+    height: 15%;
+    min-height: 150px;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+  }
+  
+.m-scroll {
+    overflow: hidden;
+    height: 100%;
+    white-space: nowrap;
+    animation: scrollText 90s infinite linear;
+    display: inline-block;
+  }
+  
+  span {
+    font-size: 36px;
+    display: inline-block;
+    margin: 0;
+    margin-right: 50px;
+    color: white;
+    vertical-align: middle;
+  }
+
+  span:first-of-type{
+    margin-left: 300px;
+  }
+  
+  .gatorIcon{
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #FF10F0;
+    vertical-align: middle;
+}
+
+  /* .blueU{
+    border-bottom: 1px solid #04d9ff;
+  } */
+  
+  @keyframes scrollText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-94%);
+    }
+  }

@@ -19,10 +19,18 @@
 }
 
 .treeIcon{
-    height: 70px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     border: 3px solid #04d9ff;
     margin-right: 30px;
+}
+
+.treeListIcon{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 3px solid #04d9ff;
 }
 
 .infoIcon{
@@ -34,6 +42,11 @@
 
 .analyticsIcon{
     font-size: 48px;
+    color: #04d9ff;
+}
+
+.analyticsListIcon{
+    font-size: 28px;
     color: #04d9ff;
 }
 
@@ -50,6 +63,7 @@
     text-align: center; 
     border: 5px solid #FF10F0;
     font-family: 'Press Start 2p';
+    cursor: pointer;
 }
 
 .rulesList{
