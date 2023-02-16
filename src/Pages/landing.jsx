@@ -52,10 +52,8 @@ export default function Landing() {
                 <li className="ruleItems">Click on <img onClick={displayLeaderboard} className="treeListIcon" src={tree} alt="palm tree" /> to view the leaderboards</li>
                 <li className="ruleItems">Click on <i onClick={displayAnalytics}className="analyticsListIcon fa-solid fa-chart-simple"></i> to view analytics for specific questions</li>
                 <li className="ruleItems">To begin a game, enter a player name and hit start</li> 
-                <li className="ruleItems">Choose a difficulty level - Easy, Medium, or Hard</li> 
-                <li className="ruleItems">Guess which state the news headline is from</li>
-                <li className="ruleItems">Players have 10 seconds to guess</li> 
-                <li className="ruleItems">After three wrong answers, the game is over</li>
+                <li className="ruleItems">Then, choose a difficulty level - Easy (2 answer options), Medium (4 answer options), or Hard (all 50 states)</li> 
+                <li className="ruleItems">Begin the game</li>
             </ul>
         </div>
         </Box>

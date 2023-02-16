@@ -13,7 +13,7 @@ export default function Difficulty() {
 
     const setDifficulty = (e) => {
         setDiff(e.currentTarget.getAttribute('data-value'))
-        localStorage.setItem('difficulty', difficulty)
+        localStorage.setItem('difficulty', e.currentTarget.getAttribute('data-value'))
         navigate('/trivia')
     }
   return (
