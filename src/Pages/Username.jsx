@@ -12,8 +12,8 @@ export default function Username() {
     setUsername(e.target.value)
   }
   const storeUsername = () => {
-    if(username.length < 1){
-      alert('Username must be at least one character')
+    if(username.length < 3){
+      document.querySelector('.error').style.display = 'block'
     } else {
       localStorage.setItem('user', username)
       navigate('/difficulty')
@@ -51,7 +51,8 @@ export default function Username() {
         <form className="userForm" action="">
           <label htmlFor="">Enter a player name to continue</label>
           <input type="text" onChange={setUser}/>
-          <button onClick={storeUsername}>START</button>
+          <h5 className="error">Player name must be at least 3 characters</h5>
+          <button onClick={storeUsername} type='button'>START</button>
         </form>
     </div>
   )

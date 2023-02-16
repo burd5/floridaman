@@ -1,0 +1,28 @@
+.triviaForm{
+    font-family: 'Press Start 2p';
+    line-height: 48px;
+    text-align: left;
+    padding: 0px 40px;
+    width: 70%;
+    margin: auto;
+    border: 3px solid #FF10F0;
+    color: #fff;
+}
+
+.triviaForm p{
+    font-size: 24px;
+}
+
+button{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    padding: 10px 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #FF10F0;
+    font-family: 'Press Start 2p';
+    border: 6px solid #04d9ff;
+    cursor: pointer;
+}

@@ -39,16 +39,39 @@
     background-color: #fff;
     border-radius: 50%;
     border: 3px solid #FF10F0;
+    cursor: pointer;
 }
 
-.triviaForm{
-    width: 70%;
-    margin: auto;
-    border: 1px solid #fff;
-    color: #fff;
-    text-align: center;
+.warningModal{
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+    text-align: center; 
+    border: 5px solid #FF10F0;
+    font-family: 'Press Start 2p';
+    cursor: pointer;
 }
 
-.triviaForm p{
-    font-size: 24px;
+.warningTitle{
+    font-size: 28px;
+    color: #FF10F0;
+    text-shadow: -1px 0 #04d9ff, 0 1px #04d9ff, 1px 0 #04d9ff, 0 -1px #04d9ff;
+}
+
+.modalButtons{
+    display: flex;
+}
+
+.modalButtons button{
+    font-size: 20px;
+}
+
+.warningModal p{
+    margin-bottom: 0;
 }

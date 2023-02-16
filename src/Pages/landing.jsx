@@ -67,7 +67,6 @@ export default function Landing() {
         <Box>
         <div className="modal">
             <h1 className="instructions">Leaderboard</h1>
-            
         </div>
         </Box>
         </Modal>
