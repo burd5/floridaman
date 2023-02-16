@@ -1,0 +1,38 @@
+.difficulty{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.diffLevel{
+    display: flex;
+    flex-direction: column;
+}
+
+.diffHeaders{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Press Start 2p';
+    text-align: center;
+}
+
+.playerTitle{
+    color: #fff;
+    font-family: 'Press Start 2p';
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+.difficulty img{
+    width: 450px;
+    height: 650px;
+    border: 4px solid #FF10F0;
+    cursor: pointer;
+}
+
+.difficulty img:hover{
+    width: 500px;
+    height: 700px;
+    border: 4px solid #04d9ff;
+}

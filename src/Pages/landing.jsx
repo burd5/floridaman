@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 import '../Styles/landing.css'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
@@ -30,7 +31,9 @@ export default function Landing() {
     <div>
         <header className="header">
             <img onClick={displayLeaderboard} className="treeIcon" src={tree} alt="palm tree" />
-            <h1 className="title">Florida Man</h1>
+            <Link className="link" to={'/'}>
+                <h1 className="title">Florida Man</h1>
+            </Link>
             <div>
                 <i onClick={displayInstructions} className="infoIcon fa-solid fa-circle-info"></i>
                 <i onClick={displayAnalytics}className="analyticsIcon fa-solid fa-chart-simple"></i>
@@ -50,7 +53,8 @@ export default function Landing() {
                 <li className="ruleItems">Click on <i onClick={displayAnalytics}className="analyticsListIcon fa-solid fa-chart-simple"></i> to view analytics for specific questions</li>
                 <li className="ruleItems">To begin a game, enter a player name and hit start</li> 
                 <li className="ruleItems">Choose a difficulty level - Easy, Medium, or Hard</li> 
-                <li className="ruleItems">Read the news headline and guess which US state it's from</li>
+                <li className="ruleItems">Guess which state the news headline is from</li>
+                <li className="ruleItems">Players have 10 seconds to guess</li> 
                 <li className="ruleItems">After three wrong answers, the game is over</li>
             </ul>
         </div>

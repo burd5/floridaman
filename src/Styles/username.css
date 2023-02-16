@@ -9,8 +9,11 @@
 
 .userForm label{
     color: #fff;
+    font-size: 24px;
     font-family: 'Press Start 2p';
     margin-bottom: 30px;
+    color: #FF10F0;
+    text-shadow: -1px 0 #04d9ff, 0 1px #04d9ff, 1px 0 #04d9ff, 0 -1px #04d9ff;
 }
 
 .userForm input{
@@ -20,11 +23,10 @@
     font-size: 24px;
     color:#FF10F0;
     font-family: 'Press Start 2p';
-    border: 5px solid #FF10F0;
+    border: 5px solid #04d9ff;
 }
 
 .userForm input:focus{
-    border: 6px solid #04d9ff;
     outline: none;
 }
 
@@ -75,7 +77,7 @@
   }
   
   .gatorIcon{
-    height: 70px;
+    height: 40px;
     border-radius: 50%;
     border: 3px solid #FF10F0;
     vertical-align: middle;

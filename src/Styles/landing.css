@@ -18,6 +18,10 @@
     text-shadow: -1px 0 #04d9ff, 0 1px #04d9ff, 1px 0 #04d9ff, 0 -1px #04d9ff;
 }
 
+.link{
+    text-decoration: none;
+}
+
 .treeIcon{
     height: 80px;
     width: 80px;
@@ -70,6 +74,8 @@
     text-align: left;
     padding-bottom: 30px;
     padding-top: 30px;
+    display: inline-block;
+    margin: auto;
 }
 
 .ruleItems{
